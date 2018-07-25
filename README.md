@@ -1,10 +1,8 @@
 # SpringBoot & Tensorflow Demos 
 
-Uses the [Tensorflow SCSt App Starters](https://github.com/spring-cloud-stream-app-starters/tensorflow) and [SCSt Computer Vision](https://github.com/tzolov/computer-vision) projects to 
-perform `Image-Recognition`, `Object-Detection`, `Image-Segmentation` and `Pose-Estimation`.
-
-Under the hood this demo `SpringBootTensorflowDemoApplication` leverages the `AggregateApplicationBuilder` for `in-memory` binding  
-of the existing [Image-Recognition](https://github.com/spring-cloud-stream-app-starters/tensorflow/tree/master/spring-cloud-starter-stream-processor-image-recognition),
+Spring Boot demo application that leverages the [Tensorflow SCSt App Starters](https://github.com/spring-cloud-stream-app-starters/tensorflow) and [SCSt Computer Vision](https://github.com/tzolov/computer-vision) projects to 
+perform `Image-Recognition`, `Object-Detection`, `Image-Segmentation` and `Pose-Estimation`. Under the hood 
+the [SpringBootTensorflowDemoApplication](./src/man/java/org/springframework/cloud/stream/app/demo/SpringBootTensorflowDemoApplication.java) spring-boot demo uses the `AggregateApplicationBuilder` for `in-memory` binding  of the existing [Image-Recognition](https://github.com/spring-cloud-stream-app-starters/tensorflow/tree/master/spring-cloud-starter-stream-processor-image-recognition),
  [Object-Detection](https://github.com/spring-cloud-stream-app-starters/tensorflow/tree/master/spring-cloud-starter-stream-processor-object-detection), 
  [Image-Segmentation](https://github.com/spring-cloud-stream-app-starters/tensorflow/tree/master/spring-cloud-starter-stream-processor-object-detection) 
  and [Pose-Estimation]() Tesnerflow app starters implementations.
