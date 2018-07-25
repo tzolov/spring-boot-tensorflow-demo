@@ -5,9 +5,9 @@ perform `Image-Recognition`, `Object-Detection`, `Image-Segmentation` and `Pose-
 the [SpringBootTensorflowDemoApplication](./src/man/java/org/springframework/cloud/stream/app/demo/SpringBootTensorflowDemoApplication.java) spring-boot demo uses the `AggregateApplicationBuilder` for `in-memory` binding  of the existing [Image-Recognition](https://github.com/spring-cloud-stream-app-starters/tensorflow/tree/master/spring-cloud-starter-stream-processor-image-recognition),
  [Object-Detection](https://github.com/spring-cloud-stream-app-starters/tensorflow/tree/master/spring-cloud-starter-stream-processor-object-detection), 
  [Image-Segmentation](https://github.com/spring-cloud-stream-app-starters/tensorflow/tree/master/spring-cloud-starter-stream-processor-object-detection) 
- and [Pose-Estimation]() Tesnerflow app starters implementations.
+ and [Pose-Estimation]() Tesnerflow app starters.
  
- Different pre-trained models are available. Check the annotations in the [SpringBootTensorflowDemoApplication](./src/man/java/org/springframework/cloud/stream/app/demo/SpringBootTensorflowDemoApplication.java) class.
+Multiple pre-trained models are available for every task. Check the annotations in the [SpringBootTensorflowDemoApplication](./src/man/java/org/springframework/cloud/stream/app/demo/SpringBootTensorflowDemoApplication.java) class for further details.
 
 ![Instance Segmentation, Pose Estimation and Object Detection](./src/main/resources/spring-boot-tensorflow-cv-demos.png)
 
