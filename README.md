@@ -15,8 +15,7 @@ of the existing [Image-Recognition](https://github.com/spring-cloud-stream-app-s
 
 # Quick Start
 
-* Download pre-build SpringBoot application from [spring-boot-tensorflow-demo-0.0.1-SNAPSHOT.jar](https://www.dropbox.com/s/9223ba1yaav73gm/spring-boot-tensorflow-demo-0.0.1-SNAPSHOT.jar)
-* Run it form the command line:
+Download the pre-build [spring-boot-tensorflow-demo-0.0.1-SNAPSHOT.jar](https://drive.google.com/file/d/1-_rHqQdcIMOVo0EgXfG2C-n-2w2yi1mP) SpringBoot application and run it form the command line:
 
 ```bash
 java -jar ./spring-boot-tensorflow-demo-0.0.1-SNAPSHOT.jar --demoType=pose_estimation --server.port=8081
